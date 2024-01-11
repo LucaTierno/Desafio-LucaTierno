@@ -98,5 +98,25 @@
     "status": true,
     "stock": 8,
     "category": "Camiseta"
+  },
+  {
+    "id": 11,
+    "title": "Camiseta Seleccion Holanda",
+    "description": "Camiseta retro año 1966",
+    "code": "a23423",
+    "price": 56500,
+    "status": true,
+    "stock": 7,
+    "category": "Camiseta"
+  },
+  {
+    "id": 12,
+    "title": "Camiseta Seleccion Turca",
+    "description": "Camiseta retro año 1966",
+    "code": "a223",
+    "price": 56500,
+    "status": true,
+    "stock": 7,
+    "category": "Camiseta"
   }
 ]

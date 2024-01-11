@@ -13,6 +13,8 @@ class ProductManager {
     let { title, description, code, price, status, stock, category } =
       nuevoObjeto;
 
+    this.products = await this.leerArchivo();
+
     if (
       !title ||
       !description ||
@@ -28,12 +30,11 @@ class ProductManager {
       return;
     }
 
-    if (this.products.length > 0) {
-      this.ultId = Math.max(...this.products.map((product) => product.id));
-    }
+    const lastIdSaved = await this.obtenerUltimoId();
+    ProductManager.ultId = lastIdSaved + 1;
 
     const newProduct = {
-      id: ++this.ultId,
+      id: ProductManager.ultId,
       title,
       description,
       code,
@@ -62,8 +63,14 @@ class ProductManager {
     await this.guardarArchivo(existingProducts);
 
     console.log("Producto agregado con éxito");
+
   }
 
+  async obtenerUltimoId() {
+    const productos = await this.leerArchivo();
+    return productos.length > 0 ? Math.max(...productos.map((producto) => producto.id)) : 0;
+  }
+  
   //Tomar los productos:
 
   async getProducts() {
