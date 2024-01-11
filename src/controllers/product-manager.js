@@ -102,6 +102,7 @@ class ProductManager {
       return arrayProductos;
     } catch (error) {
       console.log("Error al leer un archivo", error);
+      throw error;
     }
   }
 
@@ -139,7 +140,7 @@ class ProductManager {
       const arrayProductos = await this.leerArchivo();
       const index = arrayProductos.findIndex((item) => item.id === id);
       if (index !== -1) {
-        arrayProductos.splice(index);
+        arrayProductos.splice(index, 1);
         await this.guardarArchivo(arrayProductos);
       } else {
         console.log("No se encontro el producto");
