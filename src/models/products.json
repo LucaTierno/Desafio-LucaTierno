@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  },
+  {
+    "id": 2,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  },
+  {
+    "id": 3,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  },
+  {
+    "id": 4,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  },
+  {
+    "id": 5,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  },
+  {
+    "id": 6,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  },
+  {
+    "id": 7,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  },
+  {
+    "id": 8,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  },
+  {
+    "id": 9,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  },
+  {
+    "id": 10,
+    "title": "Camiseta Seleccion Argentina",
+    "description": "Camiseta retro año 1986",
+    "code": "a33",
+    "price": 90500,
+    "status": true,
+    "stock": 5,
+    "category": "Camiseta"
+  }
+]
