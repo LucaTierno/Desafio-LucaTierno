@@ -10,16 +10,6 @@
     "category": "Camiseta"
   },
   {
-    "id": 2,
-    "title": "Camiseta Seleccion Inglaterra",
-    "description": "Camiseta retro año 1931",
-    "code": "a334",
-    "price": 50500,
-    "status": true,
-    "stock": 7,
-    "category": "Camiseta"
-  },
-  {
     "id": 3,
     "title": "Camiseta Seleccion Bolivia",
     "description": "Camiseta retro año 1945",
@@ -117,6 +107,16 @@
     "price": 56500,
     "status": true,
     "stock": 7,
+    "category": "Camiseta"
+  },
+  {
+    "id": 13,
+    "title": "Camiseta Seleccion Colombia",
+    "description": "Camiseta retro año 1933",
+    "code": "fc2",
+    "price": "20000",
+    "status": true,
+    "stock": "32",
     "category": "Camiseta"
   }
 ]

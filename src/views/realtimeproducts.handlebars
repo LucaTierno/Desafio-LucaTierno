@@ -1,0 +1,25 @@
+<section class="realTimeProducts">
+  <h1>Productos Actualizados en Tiempo Real</h1>
+  
+  <div id="contenedorProductos"></div>
+
+  <h2>Gestion para agregar camisetas:</h2>
+
+  <form>
+    <input type="text" id="title" placeholder="Titulo" />
+    <input type="text" id="description" placeholder="Descripcion" />
+    <input type="number" id="price" placeholder="Precio" />
+    <input type="text" id="code" placeholder="Código" />
+    <input type="number" id="stock" placeholder="Stock" />
+    <input type="text" id="category" placeholder="Categoria" />
+    <select id="status">
+      <option value="true">Activo</option>
+      <option value="false">Inactivo</option>
+    </select>
+    <button type="button" id="btnEnviar">Enviar</button>
+  </form>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/index.js"></script>
+
+</section>

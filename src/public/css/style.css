@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.realTimeProducts {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 80px;
+}
+
+#contenedorProductos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  width: 80%;
+  background-color: rgb(249, 249, 249);
+  border-radius: 20px;
+}
+
+.todosLosProductos .container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+  background-color: rgb(212, 212, 212);
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+form {
+  background-color: rgb(249, 249, 249);
+  border-radius: 20px;
+  width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+form input {
+  margin: 7px;
+  padding: 5px;
+  border: 1px solid rgb(213, 213, 213);
+  background-color: rgb(227, 227, 227);
+  box-shadow: 0 0 6px rgb(211, 211, 211);
+}
+
+form button {
+  background-color: rgb(43, 136, 43);
+  color: white;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  margin: 7px;
+}
+
+form select {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(227, 227, 227);
+  box-shadow: 0 0 6px rgb(211, 211, 211);
+  margin: 7px;
+  padding: 5px;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.card-desc {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-price {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.card-btn-eliminar {
+    background-color: rgb(202, 24, 24);
+    color: white;
+    cursor: pointer;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: none;
+}

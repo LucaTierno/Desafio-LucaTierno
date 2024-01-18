@@ -1,0 +1,12 @@
+<section class="todosLosProductos">
+  <h1>Todos los productos</h1>
+  <div class="container-cards">
+    {{#each productos}}
+      <div class="card">
+        <p class="card-title">{{this.title}}</p>
+        <p class="card-desc">{{this.description}}</p>
+        <p class="card-price">${{this.price}}</p>
+      </div>
+    {{/each}}
+  </div>
+</section>
